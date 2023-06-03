@@ -6,7 +6,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className='px-10 bg-black pt-10 w-full bottom-0'>
+    <footer className='px-10 bg-black pt-10 w-full bottom-0 mt-32'>
       <div className='grid lg:grid-cols-3 grid-cols-1 mb-10 gap-10'>
         <div>
           <h3 className='text-rose-600 font-bold text-xl mb-5'>Aspect Vision</h3>
