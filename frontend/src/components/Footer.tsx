@@ -8,8 +8,17 @@ const Footer = () => {
   return (
     <footer className='px-10 bg-black pt-10 w-full bottom-0 mt-32'>
       <div className='grid lg:grid-cols-3 grid-cols-1 mb-10 gap-10'>
+
         <div>
-          <h3 className='text-rose-600 font-bold text-xl mb-5'>Aspect Vision</h3>
+          {/* <h3 className='text-rose-600 font-bold text-xl mb-5'>Aspect Vision</h3> */}
+          <img className='h-16 w-16 my-5' src="./images/logo.png" alt="logo" />
+          <p className='text-[#929292] font-medium'>
+            Aspect Vision, Patliputra Complex,<br /> Ashok Rajpath, Patna,<br /> 80006, Bihar, INDIA
+          </p>
+        </div>
+
+        <div>
+          <h3 className='text-rose-600 font-bold text-xl mb-5'>Importatnt Links</h3>
           <div className='flex flex-col gap-1.5'>
             <Link className='text-[#929292] font-medium text-base hover:text-white w-fit' href='/#features'>
               <span>Features</span>
@@ -30,15 +39,9 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className='text-rose-600 font-bold text-xl mb-5'>Address</h3>
-          <p className='text-[#929292] font-medium'>
-            Aspect Vision, Patliputra Complex,<br /> Ashok Rajpath, Patna,<br /> 80006, Bihar, INDIA
-          </p>
-        </div>
-
-        <div>
-          <h3 className='text-rose-600 font-bold text-xl mb-5'>Contact</h3>
-          <img className='h-16 w-16 my-5' src="./images/logo.png" alt="logo" />
+          <h3 className='text-rose-600 font-bold text-xl mb-3'>Contact</h3>
+          <p className='pt-2'>Ph : <a style={{ textDecoration: "none" }} href="tel:+919876512345" className='ml-2 font-semibold'><span className='hover:text-rose-400 text-rose-500'>+91 90087 45678</span></a></p>
+          <p className='pt-2'>Mail : <a style={{ textDecoration: "none" }} href="mailto:contact@aspectvision.com" className='ml-2 font-semibold'><span className='hover:text-rose-400 text-rose-500'>contact@aspectvision.com</span></a></p>
           <div className='flex gap-3 items-center mt-6'>
             <a style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tesla_nitp/" >
               <FaInstagram className='transition ease-in delay-50 text-pink-500 visited:text-pink-500 hover:text-pink-600 hover:scale-[110%]' size={30} />
