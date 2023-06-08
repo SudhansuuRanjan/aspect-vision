@@ -14,7 +14,7 @@ const Reviews = () => {
                 </div>
                 <div className='flex flex-col text-black'>
                     <p className='lg:max-w-[18rem] md:max-w-[18rem] max-w-[100%] font-bold text-2xl'>
-                        We're trusted by more than 1,000 students and parents
+                        We&apos;re trusted by more than 1,000 students and parents
                     </p>
                     <div className='font-medium flex items-center gap-5 mt-5'>
                         <div>1000+ Costumers</div>
@@ -36,7 +36,7 @@ const Reviews = () => {
                                 </div>
                             </div>
                             <div className="text-xl font-semibold mt-7">
-                                <p>"Great prices and excellent service"</p>
+                                <p>&quot;Great prices and excellent service&quot;</p>
                             </div>
                             <div className="flex justify-between mt-3">
                                 <p className="text-sm text-gray-400">Sudhanshu Ranjan</p>
