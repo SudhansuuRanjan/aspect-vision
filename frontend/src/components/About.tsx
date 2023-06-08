@@ -3,7 +3,7 @@ import Heading from './Heading'
 
 export default function About() {
   return (
-    <div>
+    <div id="about">
         <Heading subtitle='ABOUT' title="ABOUT US" description='Lorem Ipsum is simply dummy text of the printing and typesetting industry.' />
 
         <div data-aos="fade-up" className='flex lg:flex-row md:flex-row  flex-col-reverse items-center py-7 mb-10 justify-evenly my-10 gap-10'>

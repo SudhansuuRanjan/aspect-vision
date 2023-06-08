@@ -5,6 +5,8 @@ import Highlights from '@/components/Highlights'
 import About from '@/components/About'
 import Services from '@/components/Services'
 import Faq from '@/components/FAQ'
+import Pricing from '@/components/Pricing'
+import Reviews from '@/components/Reviews'
 
 export const metadata = {
   title: 'Aspect Vision | Home',
@@ -18,6 +20,8 @@ export default function Home() {
       <Highlights/>
       <About/>
       <Services/>
+      <Reviews/>
+      <Pricing/>
       <Faq/>
     </Layout>
   )
