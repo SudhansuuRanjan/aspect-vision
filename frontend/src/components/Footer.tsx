@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className='text-rose-600 font-bold text-xl mb-5'>Importatnt Links</h3>
+          <h3 className='text-rose-600 font-bold text-xl mb-5'>Important Links</h3>
           <div className='flex flex-col gap-1.5'>
             <Link className='text-[#929292] font-medium text-base hover:text-white w-fit' href='/#features'>
               <span>Features</span>

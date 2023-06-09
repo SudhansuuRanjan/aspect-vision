@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Layout from '@/components/Layout'
 import Hero from '@/components/Hero'
 import Highlights from '@/components/Highlights'

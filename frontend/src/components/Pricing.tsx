@@ -37,12 +37,12 @@ const Pricing = () => {
         }
     ]
 
-    const [selected,setSelected] = useState(0);
+    const [selected, setSelected] = useState(0);
 
-    const handleChange = (e:any) =>{
+    const handleChange = (e: any) => {
         setSelected(e.target.value);
     }
- 
+
 
     return (
         <div className='bg-[#04000d] flex items-center justify-center flex-col py-7 pb-16'>
@@ -52,8 +52,7 @@ const Pricing = () => {
             </div>
 
             <div className='border rounded-3xl w-[26rem] flex flex-col items-center border-gray-800 bg-[#0a0a0a] p-10'>
-
-                <select onChange={handleChange} autoFocus className='text-white font-bold outline-none border-none text-3xl bg-[#04000d] w-[40%] mb-5'>
+                <select onChange={handleChange} className='text-white font-bold outline-none border-none text-3xl bg-[#04000d] w-[40%] mb-5'>
                     <optgroup className='text-gray-200 font-medium text-lg'>
                         <option value="0">JEE</option>
                         <option value="1">NEET</option>
@@ -62,7 +61,6 @@ const Pricing = () => {
                         <option value="4">ICAR</option>
                     </optgroup>
                 </select>
-
 
                 <div className='flex items-center gap-2'>
                     <p className='text-2xl font-bold text-green-500'>₹ {price[selected].price}</p>

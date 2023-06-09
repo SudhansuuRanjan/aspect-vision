@@ -24,7 +24,7 @@ const NavBar = () => {
       window.removeEventListener("scroll", changeNavbarColor);
     }
   }, [])
-
+  
   return (
     <nav className={`flex z-20 items-center justify-between lg:px-8 md:px-6 px-3  py-4 gap-5 fixed top-0 w-full ${colorChange && " bg-black transition-all delay-100  ease-in-out bg-opacity-40 backdrop-blur-md border-gray-800 shadow-lg"}`}>
       <Link href="/">
